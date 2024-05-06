@@ -14,6 +14,7 @@
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 /* formattazione header */
@@ -86,8 +87,15 @@ main .container{
 .foto{
     height: 85%;
     position: relative;
+    cursor: pointer;
 }
 
+.sfondo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
 
 .dettagli{
     height: 15%;
@@ -154,19 +162,17 @@ footer{
     font-size: 16px;
 }
 
+#footer_info a{
+    margin-right: 10px;
+}
+
 #footer_info span{
     margin-right: 10px;
+    cursor: pointer;
 }
 
 #footer_info div{
     margin: 15px 0;
-}
-
-.sfondo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
 }
 
 /* effetti */
@@ -174,3 +180,6 @@ footer{
     display: block;
 }
 
+.heart:hover{
+    color: red;
+}
