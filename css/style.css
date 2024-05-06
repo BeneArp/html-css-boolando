@@ -24,7 +24,9 @@ header{
     background-color: #ff6900;
     color: white;
     height: 90px;
+    width: 100%;
     padding: 10px 0;
+
 }
 
 #main_header_nav{
@@ -73,12 +75,37 @@ main .container{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    max-width: 100%;
+
+    background-color: yellow;
 }
 
 .item{
     width: 30%;
+    position: relative;
 }
 
 .item img{
     max-width: 100%;
+}
+
+.lable{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    color: white;
+}
+
+.lable span{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.discount{
+    background-color: red;
+}
+
+.ecology{
+    background-color: green;
 }
