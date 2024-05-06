@@ -110,3 +110,25 @@ main .container{
 .ecology{
     background-color: green;
 }
+
+/* formattazione footer */
+footer{
+    background-color: black;
+    color: white;
+}
+
+#footer_info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+#footer_info span{
+    margin-right: 10px;
+}
+
+#footer_info div{
+    margin: 15px 0;
+}
+
