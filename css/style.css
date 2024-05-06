@@ -7,12 +7,12 @@
 
 /* formattazione generale */
 .container{
-    width: 70%;
+    width: 60%;
     margin: auto;
     font-size: 20px;
     /* debug */
     background-color: red;
-    height: 70px;
+    min-height: 70px;
 }
 
 a{
@@ -61,4 +61,24 @@ header{
 
 .icone span{
     margin: 0 8px;
+}
+
+/* formattazione corpo principale */
+main .container{
+    margin-top: 50px;
+}
+
+.flex{
+    /* flexbox */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.item{
+    width: 30%;
+}
+
+.item img{
+    max-width: 100%;
 }
