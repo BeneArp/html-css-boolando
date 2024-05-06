@@ -68,7 +68,7 @@ header{
 /* formattazione corpo principale */
 main .container{
     margin-top: 50px;
-    padding-top: 130px;
+    padding-top: 100px;
     margin-bottom: 40px;
 }
 
@@ -76,15 +76,11 @@ main .container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 1800px;
-    background-color: red;
 }
 
 .articolo{
     width: 30%;
-    height: 800px;
-    background-color: yellow;
-    border: 2px solid black;
+    height: fit-content;
 }
 
 .foto{
@@ -94,6 +90,7 @@ main .container{
 
 .dettagli{
     height: 15%;
+    margin-bottom: 50px;
 }
 
 .foto img{
