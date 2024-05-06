@@ -88,6 +88,7 @@ main .container{
     position: relative;
 }
 
+
 .dettagli{
     height: 15%;
     margin-bottom: 50px;
@@ -115,10 +116,12 @@ main .container{
     position: absolute;
     right: 0;
     top: 0;
+    z-index: 300;
 }
 
 .lable{
     position: absolute;
+    z-index: 300;
     bottom: 30px;
     left: 0;
     color: white;
@@ -157,5 +160,17 @@ footer{
 
 #footer_info div{
     margin: 15px 0;
+}
+
+.sfondo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+/* effetti */
+.articolo:hover .sfondo{
+    display: block;
 }
 
