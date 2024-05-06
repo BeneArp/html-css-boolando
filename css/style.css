@@ -1,0 +1,64 @@
+/* azzeramento parametri */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* formattazione generale */
+.container{
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    /* debug */
+    background-color: red;
+    height: 70px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* formattazione header */
+header{
+    background-color: #ff6900;
+    color: white;
+    height: 90px;
+    padding: 10px 0;
+}
+
+#main_header_nav{
+    /* flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main_header_nav div{
+    width: 20%;
+}
+
+#main_header_nav ul{
+    list-style: none;
+    /* flexxbox */
+    display: flex;
+    gap: 10%;
+}
+
+#main_header_nav a{
+    color: white;
+}
+
+#logo img{
+    max-height: 80%;
+    max-width: 80%;
+    vertical-align: middle;
+}
+
+.icone{
+    text-align: right;
+}
+
+.icone span{
+    margin: 0 8px;
+}
