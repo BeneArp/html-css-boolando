@@ -69,30 +69,60 @@ header{
 main .container{
     margin-top: 50px;
     padding-top: 130px;
+    margin-bottom: 40px;
 }
 
 .flex{
-    /* flexbox */
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
-    max-width: 100%;
-
-    background-color: yellow;
+    flex-wrap: wrap;
+    height: 1800px;
+    background-color: red;
 }
 
-.item{
+.articolo{
     width: 30%;
+    height: 800px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+.foto{
+    height: 85%;
     position: relative;
 }
 
-.item img{
+.dettagli{
+    height: 15%;
+}
+
+.foto img{
+    height: 100%;
     max-width: 100%;
+}
+
+.new{
+    color: red;
+    font-weight: bold;
+}
+
+.old{
+    text-decoration: line-through;
+}
+
+.heart{
+    font-size: 60px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 0 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .lable{
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     left: 0;
     color: white;
 }
